@@ -1,0 +1,14 @@
+public class testing {
+        public static void main(String[] args)
+        {
+            String txt1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            System.out.println("The length of the string is: "+ txt1.length());
+
+            String txt2 = "hello";
+            String text = "WORLD";
+            System.out.println(txt2.toUpperCase() + " " + text.toLowerCase());
+
+            String txt = "Please locate where 'locate' occurs!";
+            System.out.println(txt.indexOf("locate"));
+        }
+}
