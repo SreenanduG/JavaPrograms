@@ -1,0 +1,9 @@
+public class testing {
+        public static void main(String[] Args)
+        {
+            String firstname = "John";
+            String lastname = "Doe";
+            System.out.println(firstname.concat(lastname));
+            System.out.println(firstname + ' ' + lastname);
+        }
+}
