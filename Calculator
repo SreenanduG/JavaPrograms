@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner myobj = new Scanner(System.in);
+int a, b, d = 1;
+char c;
+while (d == 1) {
+System.out.println("Enter first number ");
+a = myobj.nextInt();
+System.out.println("Enter second number ");
+b = myobj.nextInt();
+System.out.println("Enter the operation to be done +, -, /, *");
+c = myobj.next().charAt(0);
+switch (c) {
+    case '+' : System.out.printf("%d %c %d = %d", a, c, b, a + b); break;
+    case '-' : System.out.printf("%d %c %d = %d", a, c, b, a - b); break;
+    case '/' : System.out.printf("%d %c %d = %f", a, c, b, (float)a / b); break;
+    case '*' : System.out.printf("%d %c %d = %d", a, c, b, a * b); break;
+    default : System.out.println("Invalid operation");
+}
+System.out.println("\n1 to continue and 0 to end ");
+d = myobj.nextInt();
+}
+}
+}
