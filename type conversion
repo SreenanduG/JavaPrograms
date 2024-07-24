@@ -1,0 +1,14 @@
+public class testing {
+      public static void main(String[] args)
+        {
+            int num1 = 9;
+            double myDouble1 = (double) num1;
+            System.out.println(num1);
+            System.out.println(myDouble1);
+
+            int num = 9;
+            double myDouble = num;
+            System.out.println(num);
+            System.out.println(myDouble);
+        }
+}
