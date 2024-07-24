@@ -1,0 +1,17 @@
+public class testing {
+
+        public static void main(String[] args)
+        {
+            int x = 10;
+            int y = 9;
+            System.out.println(x>y);
+
+            boolean isJavaFun = true;
+            boolean isFishTasty = false;
+            System.out.println(isJavaFun);
+            System.out.println(isFishTasty);
+
+            System.out.println(10==15);
+        }
+
+}
